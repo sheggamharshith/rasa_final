@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Festive&family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap");
+
+body {
+  margin: 0;
+}
+
+.pr-bg {
+  background-color: #f4f5f7;
+}
+
+.pr-red-bg {
+  background: #dd6b6b;
+}
+.pr-red-cg {
+  color: #dd6b6b;
+}
+.pr-blu-cg {
+  color: #9ab3da;
+}
+
+.pr-dblu-cg {
+  color: #404b7c;
+}
+.pr-dblu-bg {
+  background: #404b7c;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+
+  border-radius: 10px;
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #dd6b6b; 
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dd6b6b; 
+}
